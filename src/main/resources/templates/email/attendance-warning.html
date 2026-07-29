@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body
+        style="font-family:Arial;
+background:#f5f5f5;
+padding:20px;">
+
+<div
+        style="background:white;
+padding:25px;
+max-width:600px;
+margin:auto;">
+
+    <h2
+            style="color:#dc3545;">
+
+        Attendance Warning
+
+    </h2>
+
+    <p>
+
+        Hello
+
+        <strong
+                th:text="${studentName}"></strong>
+
+    </p>
+
+    <p>
+
+        Your attendance is
+
+        <strong
+                th:text="${attendancePercentage}"></strong> %
+
+    </p>
+
+    <p>
+
+        Please improve your attendance.
+
+    </p>
+
+</div>
+
+</body>
+</html>

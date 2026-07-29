@@ -1,0 +1,9 @@
+package com.STUDENT_MANAGEMENT._SYSTEM.TEACHER.enumm;
+
+public enum Designation {
+    PROFESSOR,
+    ASSISTANT_PROFESSOR,
+    ASSOCIATE_PROFESSOR,
+    LECTURER,
+    HOD
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body
+        style="font-family:Arial;
+               background:#f4f6f8;
+               padding:30px;">
+
+<div
+        style="max-width:600px;
+               margin:auto;
+               background:white;
+               border-radius:10px;
+               padding:30px;">
+
+    <h2 style="color:#0d6efd;">
+        Student Management System
+    </h2>
+
+    <h3>
+        Welcome
+        <span th:text="${studentName}"></span>
+    </h3>
+
+    <p>
+
+        We are happy to welcome you to our
+        Student Management System.
+
+    </p>
+
+    <p>
+
+        Your account has been created successfully.
+
+    </p>
+
+    <a
+            th:href="${loginUrl}"
+
+            style="
+            background:#0d6efd;
+            color:white;
+            padding:12px 20px;
+            text-decoration:none;
+            border-radius:5px;">
+
+        Login
+
+    </a>
+
+</div>
+
+</body>
+</html>
